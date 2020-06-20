@@ -1,0 +1,29 @@
+body {
+  position: relative;
+}
+
+.sectionStyle {
+  padding-top: 60px;
+}
+
+p::selection {
+  background-color: red;
+  color: #fff;
+}
+
+h1 {
+  color: green;
+}
+
+nav ul a {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+th,
+td {
+  border: 1px solid;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

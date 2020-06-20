@@ -3,7 +3,7 @@ body {
 }
 
 .sectionStyle {
-  padding-top: 60px;
+  padding-top: 10vmin;
 }
 
 p::selection {

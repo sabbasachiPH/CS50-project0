@@ -1,7 +1,13 @@
 body {
   position: relative;
+  background-color: #cccccc;
 }
 
+@media (max-width: 760px) {
+  body {
+    background-color: lightgreen;
+  }
+}
 .sectionStyle {
   padding-top: 10vmin;
 }
@@ -24,6 +30,18 @@ th,
 td {
   border: 1px solid;
   padding: 15px;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 20px grey;
+}
+
+#hobby {
+  background-color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */
